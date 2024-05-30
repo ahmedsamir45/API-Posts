@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.container h1{
+    margin: 15px auto;
+    width: fit-content;
+    border: 1px solid brown;
+    padding: 10px;
+    transition: .5s;
+}
+.container h1:hover{
+    background-color: brown;
+    color: #fff;
+}
+.container > div{
+    background-color: #e0e0e0;
+    padding: 8px;
+}
+.container > div:not(:last-child){
+    margin-bottom: 10px;
+}
+.container div span {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 5-x;
+    color: red;
+    font-style: italic;
+}
+.container h3{
+    width: fit-content;
+    margin: 10px auto;
+    text-transform: capitalize;
+    color: rgb(68, 54, 54);
+
+}
+.container > div >div{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
